@@ -9,8 +9,26 @@ bahamas = Country("The Bahamas",
 cambodia = Country("Cambodia",
 	["october", "november"])
 
+canada = Country("Canada",
+	["may", "sept", "october"])
+
+cayman_islands = Country("Cayman Islands",
+	["may", "june", "september", "october", "november"])
+
+china = Country("China", 
+	["april", "september"])
+
 costa_rica = Country("Costa Rica",
 	["may", "june", "july", "november"])
+
+ecuador = Country("Ecuador",
+	["october", "november"])
+
+france = Country("France",
+	["april","may", "june", "september"])
+
+germany = Country("Germany", 
+	["april", "may", "june", "september", "october"])
 
 ireland = Country("Ireland",
 	["april","may", "september", "october"])
@@ -23,6 +41,9 @@ laos = Country("Laos",
 
 liechtenstein = Country("Liechtenstein",
 	["april","may", "september", "october", "november"])
+
+peru = Country("Peru",
+	["march", "april", "may", "september", "october", "november"])
 
 scotland = Country("Scotland",
 	["may", "june", "september"])
@@ -37,12 +58,8 @@ vietnam = Country("Vietnam",
 	["january","february", "march", "december"])
 
 
-
-
-
-
-
-country_list = [bahamas, cambodia, costa_rica, ireland, jamaica, liechtenstein, scotland, switzerland, vietnam]
+country_list = [bahamas, cambodia, canada, cayman_islands, china, costa_rica, ecuador, 
+				france, germany, ireland, jamaica, laos, liechtenstein, peru, scotland, switzerland, vietnam]
 
 
 def get_country(month):
